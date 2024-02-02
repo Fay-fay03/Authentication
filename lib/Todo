@@ -1,0 +1,13 @@
+
+    "command for generating SHA-1 and SHA-256 keytool. in command prompt.",
+
+    //for generating the keytools. the alias name can be changed inorder to generaing different key tools
+    "keytool -genkey -v -keystore debug.keystore -alias androiddebugingkey -storepass android 
+    -keypass android -keyalg RSA -keysize 2048 -validity 10000"
+
+    //for viewing the keytools.
+    keytool -list -v -keystore debug.keystore -storepass android
+
+    
+
+
